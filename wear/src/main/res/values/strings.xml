@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WearableListenerApp</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="SAP">SAP</string>
+    <string name="helpText">Transfer 5$ to Tim from city</string>
+</resources>

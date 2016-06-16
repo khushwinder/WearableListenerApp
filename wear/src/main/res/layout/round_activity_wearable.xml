@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activitylifecycle.android.com.wearablelistenerapp.LaunchActivity"
+    tools:deviceIds="wear">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            android:padding="5dp"
+            app:layout_box="all">
+
+            <EditText
+                android:id="@+id/sapText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <ImageButton
+                android:id="@+id/mic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/mic"
+                android:layout_row="5"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/helpText"
+                android:id="@+id/helpText"
+                android:layout_gravity="top|left|center_horizontal"
+                android:textColor="#fc0463"
+                android:layout_row="1"
+                android:layout_column="0" />
+        </GridLayout>
+
+
+
+</android.support.wearable.view.BoxInsetLayout>
